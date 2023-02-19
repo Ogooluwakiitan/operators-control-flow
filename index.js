@@ -30,4 +30,3 @@ for (let index = 2; index < 20; index = index ** 2) {
 }
 console.log("The number " + pwr + " is the power of 2 nearest to " + num);
 // The number 16 is the power of 2 nearest to 20
-// console.log(pwr);
