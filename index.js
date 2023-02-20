@@ -1,4 +1,7 @@
-//
+// Question 4
+for (let i = 1; i < 20; i += 7) {
+  console.log(i);
+}
 
 let scienceSubjects = "Physics, Chemistry, Biology, Technical Drawing";
 
@@ -6,19 +9,19 @@ let socialScienceSubjects = "Accounting, Commerce, Marketing, Geography";
 
 let artsSubjects = "Government, Economics, Literature, History";
 
-let generalSubjects = "English, Mathematics";
+let generalSubjects = " English, Mathematics";
 
-let classGroup = scienceSubjects;
+let classGroup = artsSubjects;
 if (classGroup == scienceSubjects) {
   console.log(scienceSubjects + generalSubjects);
 } else if (classGroup == artsSubjects) {
   console.log(artsSubjects + generalSubjects);
 } else if (classGroup == socialScienceSubjects) {
   console.log(socialScienceSubjects + generalSubjects);
-} else classGroup == generalSubjects;
-{
+} else {
   console.log(generalSubjects);
 }
+
 // Physics, Chemistry, Biology, Technical DrawingEnglish, Mathematics
 // English, Mathematics
 
