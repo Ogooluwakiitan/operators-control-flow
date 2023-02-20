@@ -22,9 +22,38 @@ Bitwise Operators
 
 <!-- QUESTION 2 -->
 
-Assignment Operator
+Assignment Operator Examples
 
-<!-- let myColor = 'white' -->
+<!--
+let a = 8
+a += 2
+ -->
+
+Arithmetic Operators Examples
+
+<!--
+let a = 5;
+let b = 2;
+let c = a + b;
+c++
+let d = c
+ -->
+
+Comparison Operators Examples
+
+ <!-- 
+ x == 8;
+ x > 2; true
+-->
+
+Logical Operators Examples
+
+<!--
+let y = 10
+let z = 4
+(y == 10 || z == 5) is True
+!(y == z) is true
+ -->
 
 <!-- QUESTION 4 -->
 
